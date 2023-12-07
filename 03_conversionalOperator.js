@@ -15,3 +15,7 @@ let login = 1
 
 let booleanlogined = Boolean(login)
 console.log(booleanlogined);
+
+// **************** Operation ***********************
+console.log(1 + 6 + "5") // if the conversion first then conversion that place and then String work=> 75
+console.log("1" + 6 + 5) // if the String first then all String converted=>165
