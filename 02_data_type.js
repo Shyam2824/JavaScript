@@ -29,3 +29,24 @@ Non primitive (Reference)
 Array, Objects, Function
 
  */
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// *******************Memory************************************
+// Stack (Primitive),,, Heap(Non Primitive)
+
+let userId = "Shyam.com" // in stack that will be change only one
+
+let anotheruserId = userId
+anotheruserId = "shyamsundar.com"
+console.log(anotheruserId);
+
+
+// in heap that change both 
+let userName1 = {
+    email: "shyamsundar025@gmail.com",
+    userId: "254581@fjj"
+}
+
+let userName2 = userName1
+userName2.email = "golusingh@gmail.com"
+console.log(userName2);
