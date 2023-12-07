@@ -18,3 +18,14 @@ let goback = true
 let name = "shyam"
     //console.table([age, goback, name]);
 console.log(typeof age);
+
+// ************* Data type Summery **********
+/*
+***********Data type have 2 type
+1. Primitive
+7 type: Number, String, null, undefined, Boolean, BigInt, Symbol
+
+Non primitive (Reference)
+Array, Objects, Function
+
+ */
