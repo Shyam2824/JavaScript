@@ -13,3 +13,9 @@ const otherNumber = 12500000
 console.log(otherNumber.toLocaleString());
 
 //-------------------Maths------------------------
+
+console.log(Math.random());
+console.log((Math.random() * 10) + 1); // any random number
+console.log(Math.floor(Math.random() * 10) + 1); // round of in lower value
+console.log(Math.ceil(Math.random() * 10) + 1); // round of in higher value
+console.log(Math.max());
