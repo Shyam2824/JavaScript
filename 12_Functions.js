@@ -29,4 +29,25 @@ function loginUserMessage(UserName) {
     return `${UserName} just logIn`
 }
 //console.log(loginUserMessage("Shyam"));
-console.log(loginUserMessage());
+//console.log(loginUserMessage());
+
+function calculateCartPrice(...num1) { // ... that used in Expend and rest also that cover all the value 
+    return num1
+}
+//console.log(calculateCartPrice(100, 258, 365890));
+
+function calculateCartPrice(val1, val2, ...num1) { // if in the function that should be given parameter i.e.. val1, val2 etc  
+    return num1
+}
+//console.log(calculateCartPrice(100, 258, 522, 659, 365)); // output is 522,659,365 because starting two value should be include val1, val2
+
+// object in function
+const user = {
+    userName: "Golu Singh",
+    price: 568
+}
+
+function handleObject(anyObject) {
+    console.log(`Username ${anyObject.userName} and the price is ${anyObject.price}`);
+}
+handleObject(user)
